@@ -3,7 +3,7 @@
       "username": "root",
       "password": "root",
       "database": "sequelizedburgers_db",
-      "port": 8889,
+      "port": 3306,
       "dialect": "mysql"
     },
     "test": {
