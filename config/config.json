@@ -2,9 +2,8 @@
     "development": {
       "username": "root",
       "password": "root",
-      "database": "burgers_db",
-      "host": "127.0.0.1",
-      "port": 3306,
+      "database": "sequelizedburgers_db",
+      "port": 8889,
       "dialect": "mysql"
     },
     "test": {
