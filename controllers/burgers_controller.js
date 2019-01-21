@@ -15,7 +15,7 @@ router.post('/burgers', function(req, res) {
   db.burger.create({
       burger_name: req.body.burger_name
   }).then(function (data) {
-      console.log(data);
+      //console.log(data);
       res.send();
   })
 });
@@ -29,7 +29,7 @@ router.put('/burgers/:id', function(req, res) {
             id: id
         }
     }).then(function (data) {
-        console.log(data);
+        //console.log(data);
         res.send();
     })
 });
